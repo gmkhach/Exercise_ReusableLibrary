@@ -15,7 +15,7 @@ namespace ReusableLibraryTest
             var expected = "Sonic Screwdriver";
 
             // Act
-            var actual = StringHandler.InsertSpaces(source);
+            var actual = source.InsertSpaces();
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -27,9 +27,9 @@ namespace ReusableLibraryTest
             // Arrange
             var source = "Sonic Screwdriver";
             var expected = "Sonic Screwdriver";
-
+            
             // Act
-            var actual = StringHandler.InsertSpaces(source);
+            var actual = source.InsertSpaces();
 
             // Assert
             Assert.AreEqual(expected, actual);
