@@ -4,9 +4,10 @@ using System.Text;
 
 namespace ReusableLibrary
 {
-    public class StringHandler
+    public static class StringHandler
     {
-        public string InsertSpaces(string source)
+        // Inserts a space before every upper case character in a string, except the first character
+        public static string InsertSpaces(string source)
         {
             string result = string.Empty;
             if(!string.IsNullOrEmpty(source))
