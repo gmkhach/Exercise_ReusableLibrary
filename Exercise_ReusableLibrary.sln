@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_ReusableLibrary", "Exercise_ReusableLibrary\Exercise_ReusableLibrary.csproj", "{BB3D9D05-8919-45C6-83D1-46FAEF89C824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReusableLibrary", "ReusableLibrary\ReusableLibrary.csproj", "{BB3D9D05-8919-45C6-83D1-46FAEF89C824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReusableLibraryTest", "ReusableLibraryTest\ReusableLibraryTest.csproj", "{79E1D66F-2380-41E6-9339-8EFE5F17E3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BB3D9D05-8919-45C6-83D1-46FAEF89C824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3D9D05-8919-45C6-83D1-46FAEF89C824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3D9D05-8919-45C6-83D1-46FAEF89C824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E1D66F-2380-41E6-9339-8EFE5F17E3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E1D66F-2380-41E6-9339-8EFE5F17E3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E1D66F-2380-41E6-9339-8EFE5F17E3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E1D66F-2380-41E6-9339-8EFE5F17E3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
